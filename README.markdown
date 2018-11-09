@@ -10,6 +10,8 @@ Ruby CookieJar
 Synopsis
 --------
 
+The CookieJar gem is required by the Restforce gem to interact with the SalesForce API.  Unfortunately the CookieJar gem appears to be unmaintained and so this repo is used to resolve the issue described [here](https://github.com/restforce/restforce/issues/120).
+
 The Ruby CookieJar is a library to help manage client-side cookies in pure Ruby. It enables parsing and setting of cookie headers, alternating between multiple 'jars' of cookies at one time (such as having a set of cookies for each browser or thread), and supports persistence of the cookies in a JSON string.
 
 Both Netscape/RFC 2109 cookies and RFC 2965 cookies are supported.
